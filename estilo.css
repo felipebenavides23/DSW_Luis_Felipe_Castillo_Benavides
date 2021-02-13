@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+#menu #item{
+    text-decoration: none;
+    float: left;
+    padding: 30px;
+    background: red;
+    align-content: center;
+}
