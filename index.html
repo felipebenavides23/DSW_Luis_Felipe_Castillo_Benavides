@@ -1,60 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./estilo.css">
+   <title>ovi diseño de sitio web</title>
+</head>
 <body>
-    <div id="menu">
+   <div id="menu">
 
-        <link rel="stylesheet" href="./estilo.css">
-
-        <header >
-           <div id="img">
-              <img class='logo' src="./img/logo.png"">
-           </div>
-        
-        </header>
-          <div class="conte_menu">
-        
-           <div class="menu">
-              <ul>
-                  <li id="item">
-                     <a href="inicio.html" target="contenido">inicio</a> 
-                  </li>
-                      
-              
-                   <li id="item">
-                      <a href="#">lecturas</a> 
-              
-                      <ul id='desplazar'>
-                       <li id="sub-item"><a href="Lecturas/Objetivos.html" target="contenido">Objetivos </a></li>
-                       <li id="sub-item"><a href="Lecturas/Estructura.html" target="contenido" target="contenido" >Estructura </a></li>
-                       <li id="sub-item"><a href="Lecturas/Etiquitas.html" target="contenido">Etiquetas</a></li>
-                       <li id="sub-item"><a href="Lecturas/Maquetacion.html" target="contenido">Maquetacion </a></li>
-                    </ul>
-                   </li>
-              
-                   <li id="item">
-                    <a href="#">multimedia</a> 
-                    <ul id='desplazar'>
-                       <li id="sub-item"><a href="Multimedia/multi1.html" target="contenido">Multimedia_1 </a></li>
-                       <li id="sub-item"><a href="multimedia/multi2.html" target="contenido">Multimedia_2</a></li>
-                       <li id="sub-item"><a href="multimedia/multi3.html" target="contenido">Multimedia_3 </a></li>
-                    </ul>
-                 </li>
-              
-                   <li id="item">
-                      <a href="autor.html" target="contenido" >autor</a> 
-                   </li>
-              </ul>
-              </div>
-              
-          </div>
-    </div>
-    <!-- En "src" ponemos la primera página que se carga en el iframe -->
-    <iframe id="contenido" name="contenido" src="inicio.html">
        
-     <!-- Aquí puedes poner contenido que se verá si el navegador no acepta iframes -->
-    </iframe>   
-    <div>
-      <h1> Footer</h1>
-  </div>
-     <!-- Asígnale estilos con "style" o con CSS igual que si fuera un div: posicion, ancho, alto, borde, etc.  -->
-    </body>
+
+       <header >
+          <div id="img">
+             <img class='logo' src="./img/logo.png"">
+          </div>
+          
+          <div class="titulo">
+             <h1>ovi diseño de sitio web</h1>
+          </div>
+       
+       </header>
+         <div class="conte_menu">
+       
+          <div class="menu">
+             <ul>
+                 <li id="item">
+                    <a href="Lecturas/Objetivos.html" target="contenido">Inicio </a> 
+                 </li>
+                     
+             
+                  <li id="item">
+                     <a href="#">lecturas</a> 
+             
+                     <ul id='desplazar'>
+                      <li id="sub-item"><a href="Lecturas/Estructura.html" target="contenido" target="contenido" >Estructura </a></li>
+                      <li id="sub-item"><a href="Lecturas/Etiquitas.html" target="contenido">Etiquetas</a></li>
+                      <li id="sub-item"><a href="Lecturas/Maquetacion.html" target="contenido">Maquetacion </a></li>
+                   </ul>
+                  </li>
+             
+                  <li id="item">
+                   <a href="#">multimedia</a> 
+                   <ul id='desplazar'>
+                      <li id="sub-item"><a href="Multimedia/multi1.html" target="contenido">Multimedia_1 </a></li>
+                      <li id="sub-item"><a href="multimedia/multi2.html" target="contenido">Multimedia_2</a></li>
+                      <li id="sub-item"><a href="multimedia/multi3.html" target="contenido">Multimedia_3 </a></li>
+                   </ul>
+                </li>
+             
+                  <li id="item">
+                     <a href="autor.html" target="contenido" >autor</a> 
+                  </li>
+             </ul>
+             </div>
+             
+         </div>
+   </div>
+   <!-- En "src" ponemos la primera página que se carga en el iframe -->
+   <iframe id="contenido" name="contenido" src="Lecturas/Objetivos.html" frameborder='0' >
+      
+    <!-- Aquí puedes poner contenido que se verá si el navegador no acepta iframes -->
+   </iframe>  
+   
+   <div class="noticias">
+       <iframe class="twitter" src="twitter.html" frameborder="1"></iframe>
+
+   </div>
+   
+   <div class="footer">
+     <h1> Footer</h1>
+ </div>
+    <!-- Asígnale estilos con "style" o con CSS igual que si fuera un div: posicion, ancho, alto, borde, etc.  -->
+   </body>
+
+</html>
 
     

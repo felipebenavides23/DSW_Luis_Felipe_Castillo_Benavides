@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>ESTRUCTURA BASICA DE HTML</title>
 </head>
 
-<body>
+<body class="articulos">
 
 <div>
-    <article>
+    <article class="container">
+        <div class="sub_container">
         <h2>ETIQUETAS</h2>
         HTML define 91 etiquetas que los diseñadores pueden utilizar para marcar los diferentes elementos que componen una página:  <br>
         A pesar de que se trata de un número de etiquetas muy grande, no es suficiente para crear páginas complejas. Algunos elementos como las imágenes y los enlaces requieren cierta información adicional para estar completamente definidos. <br>
@@ -18,7 +21,7 @@
         <h3>Etiquetas Raíz</h3>
     
         <ul>
-            <li>&lt;!doctype html&gt; : Define que el documento esta bajo el estandar de HTML 5</li>
+            <li>&lt;!doctype html&gt; : Define que el documento esta bajo el estandar de HTML 5</li><br>
             <li>&lt;html&gt; : Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento.</li>
         </ul>
         <h3>Metadatos Del Documento</h3>
@@ -156,9 +159,11 @@
             <li>&lt;command&gt; :Representa un comando que un usuario puede invocar.</li>
             <li>&lt;menu&gt; :Representa una lista de comandos .</li>
         </ul>
+    </div>
     </article>
     
-    <article>
+    <article class="container">
+        <div class="sub_container">
         <H2>atributos</H2>
         <ul>
             <li><strong>Atributos básicos</strong>: se pueden utilizar prácticamente en todas las etiquetas HTML.</li>
@@ -295,9 +300,9 @@
                 <li>tabindex="numero" : Establece la posición del elemento en el orden de tabulación de la página. Su valor debe estar comprendido entre 0 y 32.767</li>
                 <li>onfocus, onblur : Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el foco</li>
             </ul>
-    
+        </div>
     </article>
-</div>
+
 
 </body>
 
