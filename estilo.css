@@ -22,6 +22,7 @@ header{
 .titulo{
     font-size: 30px;
     color: white;
+    margin-right: 20px;
 }
 .conte_menu{
     margin-top: 5px;
@@ -155,3 +156,11 @@ table{
     margin-top: 15px;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+}
