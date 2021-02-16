@@ -93,8 +93,6 @@ width: 24%;
     .titulo{
     font-size: 20px    
     }
-}
-@media(max-width:550px){
     #contenido{
         display:block;
         width: 100%;
@@ -106,6 +104,9 @@ width: 24%;
         margin-bottom:30px ;
         width: 80%;
     }
+}
+@media(max-width:550px){
+ 
     .titulo{
         font-size: 10px;
         color: white;
